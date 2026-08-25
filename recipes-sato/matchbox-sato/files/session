@@ -1,0 +1,5 @@
+#!/bin/sh
+
+matchbox-window-manager -use_titlebar no -use_cursor no &
+cd /usr/bin
+exec /usr/bin/nupogodi
